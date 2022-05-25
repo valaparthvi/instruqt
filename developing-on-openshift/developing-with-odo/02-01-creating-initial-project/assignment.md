@@ -60,7 +60,7 @@ Now let's log into OpenShift from the command line in the terminal window to the
 `Step 4:`  Run the following command in the terminal window to the left to log into the OpenShift cluster.
 
 ```
-oc login -u developer -p developer https://api.crc.testing:6443 --insecure-skip-tls-verify=true
+odo login -u developer -p developer https://api.crc.testing:6443 --insecure-skip-tls-verify=true
 ```
 
 You'll get the following output;
